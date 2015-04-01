@@ -1,0 +1,190 @@
+package main;
+
+public class Constants {
+    // Data Classes
+    public static final String VARIABLE_DATA = "VariableData";
+    public static final String DISPLAY_DATA = "DisplayData";
+    public static final String FUNCTION_DATA = "FunctionData";
+    public static final String PREVIOUS_COMMAND_DATA = "PreviousCommandData";
+    public static final String TURTLE_DATA = "TurtleData";
+
+    // Numbers
+    public static final int ZERO = 0;
+    public static final int ONE = 1;
+    public static final int TWO = 2;
+    public static final int THREE = 3;
+    public static final int FOUR = 4;
+    public static final int FIVE = 5;
+    public static final int NINE = 9;
+
+    // CommandLine
+    public static final double GAP_HEIGHT = 45;
+    public static final double FIELD_HEIGHT = 48;
+    public static final double AREA_HEIGHT = 186;
+    public static final String COMMAND_LINE = "Command Line";
+    public static final String COMMAND_LINE_VIEW = "CommandLineView";
+    public static final String TEXT_AREA = "TextArea";
+    public static final String TEXT_FIELD = "TextField";
+    public static final String NEW_LINE = "\n";
+    public static final String SPACE = " ";
+    public static final String S_PLUS = "\\s+";
+
+    // Parser
+    public static final String DEFAULT_COMMANDS_PACKAGE = "model.command.";
+    public static final String DEFAULT_LANGUAGE_PACKAGE = "resources/languages/";
+    public static final String DEFAULT_LISTS_PACKAGE = "resources/lists/";
+    public static final String DEFAULT_COMMANDS = "Commands";
+    public static final String DEFAULT_LANGUAGE = "English";
+    public static final String DEFAULT_SYNTAX = "Syntax";
+
+    // DisplayTurtle
+    public static final int TURTLE_HEIGHT = 40;
+    public static final int TURTLE_WIDTH = 30;
+    
+    // Display Data
+    public static final String BACKGROUND_COLOR_PROPERTY = "BackgroundColor";
+    public static final String LANGUAGE_PROPERTY = "Language";
+
+    // Display
+    public static final String TURTLE_ADDRESS = "resources/images/turtle.png";
+    public static final String DISPLAY_NAME = "Display";
+    public static final int DISPLAY_HEIGHT = 600;
+    public static final int DISPLAY_WIDTH = 600;
+    public static final int DEFAULT_START_COLOR_INDEX = 5;
+
+    // LineColorMenu
+    public static final String LINE_COLOR = "Line Color";
+
+    // CommandType
+    public static final String DISPLAY_DOT = "display.";
+    public static final String MATH_DOT = "math.";
+    public static final String TURTLE_DOT = "turtle.";
+    public static final String CONTROL_DOT = "control.";
+    public static final String PERSONAL_DOT = "personal.";
+
+    // Engine
+    public static final String NO_COMMAND = "";
+    public static final String COMMAND_CREATOR_NAME = "MakeUserInstruction";
+    public static final String GENERIC_TURTLE_NAME = "1";
+    public static final String WHITE_SPACES = "\\s+";
+    public static final String DIVISOR = " ";
+
+    // Preferences
+    public static final String DEFAULT_COLORS = "Colors";
+    public static final String DEFAULT_LANGUAGES = "Languages";
+    public static final String CHANGE_TURTLE_IMAGE = "Change Turtle Image";
+    public static final String CHOOSE_A_NEW_IMAGE = "Choose a new image";
+    public static final String IMAGE_FILE = "Image File";
+    public static final String LANGUAGE = "Language";
+    public static final String OTHER = "Options";
+    public static final String HELP = "Help";
+	public static final String TURTLE_MENU = "Edit";
+    public static final String NEW_WORKSPACE = "New";
+    public static final String SAVE = "Save";
+    public static final String LOAD = "Load";
+    public static final String FILE = "File";
+    public static final String[] IMAGE_EXTENSIONS = {
+                                                     "*.gif",
+                                                     "*.png",
+                                                     "*.jpg",
+                                                     "*.jpeg" };
+    public static final String GIF = "*.gif";
+    public static final String PNG = "*.png";
+    public static final String JPG = "*.jpg";
+    public static final String JPEG = "*.jpeg";
+
+    // Window Views
+    public static final int SCREEN_WIDTH = 300;
+    public static final int SCREEN_HEIGHT = 300;
+    public static final String VARIABLES = "Variables";
+    public static final String FUNCTIONS = "Functions";
+    public static final String PREVIOUS_COMMANDS = "Previous Commands";
+    public static final String BACKGROUND_COLOR = "Background Color";
+    public static final String MY_PREVIOUS_COMMAND = "myPreviousCommand";
+    public static final String PREVIOUS_COMMANDS_VIEW = "PreviousCommandsView";
+
+    // HelpWindow
+    public static final int HELP_WINDOW_WIDTH = 500;
+    public static final int HELP_WINDOW_HEIGHT = 500;
+
+    // Resources
+    public static final String ENGLISH = "English";
+    public static final String HELP_PATH = "/resources/help.html";
+
+    // Exceptions
+    public static final String MASTHEAD = "Masthead";
+    public static final String MESSAGE = "Message";
+
+    // Pen
+    public static final String SOLID = "Solid";
+
+    // XML
+
+	public static final String XML_ROOT = "root";
+	public static final String XML_DISPLAY = "display";
+	public static final String XML_TURTLES = "turtles";
+	public static final String XML_TURTLE = "turtle";
+	public static final String XML_TURTLE_ID = "id";
+	public static final String XML_XCOOR = "xCoor";
+	public static final String XML_YCOOR = "yCoor";
+	public static final String XML_OLDX = "oldX";
+	public static final String XML_OLDY = "oldY";
+	public static final String XML_ANGLE = "angle";
+	public static final String XML_OLD_ANGLE = "oldAngle";
+	public static final String XML_IMAGE = "image";
+	public static final String XML_VISIBLE = "visible";
+	public static final String XML_PEN = "pen";
+	public static final String XML_PEN_DOWN = "penDown";
+	public static final String XML_STYLE = "style";
+	public static final String XML_THICKNESS = "thickness";
+	public static final String XML_PEN_COLOR = "color";
+	public static final String XML_BACKGROUND_COLOR = "backgroundColor";
+	public static final String XML_LANGUAGE = "language";
+	public static final String XML_PALETTE = "palette";
+	public static final String XML_PALETTE_COLOR = "color";
+	public static final String XML_COLOR_INDEX = "index";
+	public static final String XML_FUNCTIONS = "functions";
+	public static final String XML_FUNCTION = "function";
+
+	public static final String XML_FUNCTION_NAME = "functionName";
+	public static final String XML_ARGUMENTS = "arguments";
+	public static final String XML_COMMANDS = "commands";
+	public static final String XML_VARIABLES = "variables";
+	public static final String XML_VARIABLE = "variable";
+	public static final String XML_VARIABLE_NAME = "variableName";
+
+	public static final String XML_VALUE = "value";
+	
+	//XML file
+	public static final String XML_EXTENSION[] = {"*.xml"};
+	public static final String XML_TYPE = "xml File";
+	public static final String SAVE_XML = "Save your workspace";
+	public static final String LOAD_XML = "Load your workspace";
+
+	
+	//Line hierarchy
+	public static final Double DOTTED_DOUBLE = 2d;
+	public static final Double[] DASHED_DOUBLES = {25d, 10d};
+	public static final String LINE_EXTENSION = "view.lines.";
+	public static final String SOLID_LINE = "SolidLine";
+    public static final String DASHED_LINE = "DashedLine";
+    public static final String DOTTED_LINE = "DottedLine";
+	public static final double DEFAULT_THICKNESS = 1d;
+	
+	
+	//Controller
+	public static final String VARIABLE = "variable";
+	public static final String VARIABLE_NAME = "variableName";
+	public static final String VALUE = "value";
+	public static final String EDIT_TURTLE = "Edit Turtle";
+	public static final String TURTLE_ID = "Turtle Id";
+	public static final String TURTLE_XCOR = "Turtle x-coor";
+	public static final String TURTLE_YCOR = "Turtle y-coor";
+	public static final String TURTLE_HEADING = "Turtle angle";
+	public static final String TURTLE_SHOWING = "Turtle visible";
+	public static final String TURTLE_PENDOWN = "Pen down";
+	public static final String PEN_THICKNESS = "Pen thickness";
+	public static final String PEN_LINE_STYLE = "Pen style";
+	public static final String PEN_COLOR_INDEX = "Pen color index";
+	
+}
